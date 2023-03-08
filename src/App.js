@@ -1,4 +1,5 @@
-import React, {useState} from "react"
+import React, { useState } from "react"
+import
 
 function App() {
   const slides = [
@@ -19,9 +20,17 @@ function App() {
     },
   ]
 
-  return <div className="max-w-[1400px] h-[780px] m-auto py-16 px-4 relative">
-    
-  </div>
+  return (
+    <div className='max-w-[1400px] h-[780px] m-auto py-16 px-4 relative'>
+      <div
+        style={{ backgroundImage: `url(${slides[0].url}) ` }}
+        className='w-full h-full rounded-2xl bg-center duration-500'
+      ></div>
+      {/* Left arrow */}
+
+      {/* Right arrow */}
+    </div>
+  )
 }
 
 export default App
