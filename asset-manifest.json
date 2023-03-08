@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-tailwind-slider/static/css/main.31104aea.css",
+    "main.js": "/react-tailwind-slider/static/js/main.f9e9952e.js",
+    "index.html": "/react-tailwind-slider/index.html",
+    "main.31104aea.css.map": "/react-tailwind-slider/static/css/main.31104aea.css.map",
+    "main.f9e9952e.js.map": "/react-tailwind-slider/static/js/main.f9e9952e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31104aea.css",
+    "static/js/main.f9e9952e.js"
+  ]
+}
