@@ -46,11 +46,11 @@ function App() {
   }
 
   return (
-    <div className='max-w-[1400px] h-[700px] w-full m-auto py-16 px-4 relative group'>
+    <div className='max-w-[1400px] h-[650px] w-full m-auto py-10 px-4 relative group'>
       <h1 className='text-center mb-6 text-5xl font-bold'>SLIDER</h1>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-        className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
+        className='w-[60%] h-full rounded-2xl m-auto bg-no-repeat bg-center bg-cover duration-500'
       ></div>
 
       {/* Left Arrow */}
